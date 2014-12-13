@@ -1,10 +1,10 @@
 __author__ = 'Sean'
 def fact(m):
-    n = 1
+    m = 1
     for i in range (1, (m+1)):
-        n *= i
+        m *= i
 
-    print(n)
+    print(m)
 
 fact(0)
 fact(1)
